@@ -382,11 +382,14 @@ body.loaded #preloader{
     color: white;
     letter-spacing: 6px;
     text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: 900;
+    font-size: 14px;
 }
 
 .logo a {
     display: block;
-    color: #3a414c;;
+    color: white;
     text-transform: uppercase;
     letter-spacing: 6px;
     font-weight: 900;
@@ -431,9 +434,13 @@ body.loaded #preloader{
 
 .navigation-background .logo {
     padding-top: 18px;
-    color: #3a414c;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
+
+}
+.navigation-background .logo a{
+
+    color: #3a414c;
 
 }
 
