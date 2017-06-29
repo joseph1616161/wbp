@@ -378,6 +378,10 @@ body.loaded #preloader{
     padding-top: 28px;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
+    display: block;
+    color: white;
+    letter-spacing: 6px;
+    text-transform: uppercase;
 }
 
 .logo a {
@@ -427,8 +431,10 @@ body.loaded #preloader{
 
 .navigation-background .logo {
     padding-top: 18px;
+    color: #3a414c;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
+
 }
 
 .navigation-background .navigation-menu .navbar-nav li a {
@@ -971,11 +977,11 @@ img.mfp-img{
 
 
 @media only screen and (max-width: 767px) {
-    .navbar-toggle .icon-bar {
-        background: #f8f8f8;
+    .navbar-toggle .icon-bar {  
+        background: white;
     }
     .navigation-background .navbar-toggle .icon-bar {
-        background: #fff;
+        background: #3a414c;
     }
     .navbar-toggle {
         margin-right: 0px;
@@ -1004,10 +1010,10 @@ img.mfp-img{
         margin-top: -30px;
     }
     .navbar-collapse {
-        background: rgba(0, 0, 0, .9);
+        background: rgba(0, 0, 0, .5);
     }
     .navigation-background .navbar-collapse {
-        background: rgba(0, 0, 0, .9);
+        background: white;
     }
     .home-section-background {
         padding-top: 120px;
