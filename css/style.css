@@ -383,8 +383,8 @@ body.loaded #preloader{
     letter-spacing: 6px;
     text-transform: uppercase;
     letter-spacing: 6px;
-    font-weight: 900;
-    font-size: 14px;
+    font-weight: 570;
+    font-size: 15px;
 }
 
 .logo a {
@@ -392,10 +392,12 @@ body.loaded #preloader{
     color: white;
     text-transform: uppercase;
     letter-spacing: 6px;
-    font-weight: 900;
-    font-size: 14px;
+    font-weight: 380;
+    font-size: 15px;
 }
-
+.header-top-area .navbar-nav li a {
+    font-weight: 570;
+}
 .navigation-menu .navbar-nav li a {
     color: #fff;
     text-transform: uppercase;
@@ -404,7 +406,7 @@ body.loaded #preloader{
     padding: 30px 15px;
     -webkit-transition: .3s;
     transition: .3s;
-    font-weight: 600;
+    font-weight: 570;
 }
 
 .navigation-menu .navbar-nav li a:hover {
@@ -441,6 +443,7 @@ body.loaded #preloader{
 .navigation-background .logo a{
 
     color: #3a414c;
+
 
 }
 
