@@ -1,0 +1,26 @@
+{
+  "name": "jportfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "8.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseph1616161/wbp.git"
+  },
+  "author": "james_yau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joseph1616161/wbp/issues"
+  },
+  "homepage": "https://github.com/joseph1616161/wbp#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
