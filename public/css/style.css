@@ -69,7 +69,7 @@ fieldset {
 	padding: 0;
 }
 .about-me.section-space-padding {
-	padding: 30px 0px;
+	padding: 60px 0px;
 }
 .section-space-padding {
 	padding: 100px 0px;
@@ -728,7 +728,7 @@ img.mfp-img {
 
 .services-section .services-detail:hover {
 	border-radius: 4px;
-	border-radius: 20%;
+
 	box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
 	top: -5px;
 }
@@ -740,6 +740,13 @@ img.mfp-img {
 /* Call to Action */
 
 .call-to-action {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url(../images/bg/center.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	padding: 50px 0px;
+	color: #fff;
 }
 
 .call-to-action h2 {
@@ -937,7 +944,7 @@ img.mfp-img {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: bottom;
-	padding: 80px 0px;
+	padding: 75px 0px;
 	color: #f8f8f8;
 }
 
@@ -1110,6 +1117,13 @@ img.mfp-img {
 	z-index: 999;
 	padding: 50;
 	box-shadow: 1px 2px 2px #16472b;
+}
+.appicon {
+	width: 45px;
+	height: 45px;
+
+	bottom: 50px;
+	z-index: 999;
 }
 
 .scroll-to-top:hover,
