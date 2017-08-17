@@ -744,6 +744,7 @@ img.mfp-img {
 		url(../images/bg/center.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-size: cover;
 	background-position: center;
 	padding: 70px 0px;
 	color: #fff;
@@ -943,6 +944,7 @@ img.mfp-img {
 		url(../images/bg/footer.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-size: cover;
 	background-position: bottom;
 	padding: 75px 0px;
 	color: #f8f8f8;
