@@ -294,7 +294,8 @@ body.loaded #preloader {
 
 .home-section-background:after {
 	position: absolute;
-	background: rgba(0, 0, 0, 0.38);
+	background: linear-gradient(rgba(23, 24, 1, 0.4), rgba(0, 0, 0, 0.38));
+	/* background: rgba(0, 0, 0, .38); */
 	left: 0;
 	top: 0;
 	width: 100%;
@@ -932,7 +933,11 @@ img.mfp-img {
 /* Footer */
 
 .footer-section {
-	background: #000;
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+		url(../images/bg/footer.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: bottom;
 	padding: 80px 0px;
 	color: #f8f8f8;
 }
@@ -1091,7 +1096,7 @@ img.mfp-img {
 /* Scroll To Top */
 
 .scroll-to-top {
-	background-color: #24b662;
+	background-color: #16472b;
 	display: none;
 	width: 50px;
 	height: 50px;
@@ -1100,14 +1105,18 @@ img.mfp-img {
 	text-align: center;
 	color: #fff;
 	position: fixed;
-	right: 0px;
+	right: 10px;
+	border-radius: 50%;
 	bottom: 50px;
 	z-index: 999;
+	padding: 50;
+	box-shadow: 1px 2px 2px #16472b;
 }
 
 .scroll-to-top:hover,
 .scroll-to-top:focus {
 	background-color: #1bab58;
+	box-shadow: 1px 2px 2px #1a8648;
 	color: #ffffff;
 }
 
