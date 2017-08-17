@@ -422,7 +422,7 @@ body.loaded #preloader {
 
 .navigation-menu .navbar-nav li a:hover {
 	background: none;
-	color: #fff;
+	color: #1bab58;
 	-webkit-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
 }
@@ -462,7 +462,7 @@ body.loaded #preloader {
 }
 
 .navigation-background .navigation-menu .navbar-nav li a:hover {
-	color: #fff;
+	color: #1bab58;
 }
 
 /* About Me */
@@ -745,7 +745,7 @@ img.mfp-img {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
-	padding: 50px 0px;
+	padding: 70px 0px;
 	color: #fff;
 }
 
